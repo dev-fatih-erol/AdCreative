@@ -2,6 +2,7 @@
 {
     public class FileService : IFileService
 	{
+        // Note: There is no alternative method available for item 2.
         public async Task DownloadAsync(string url, string filePath)
         {
             using var httpClient = new HttpClient();
